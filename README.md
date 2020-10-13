@@ -8,7 +8,7 @@
 You need to be running 3 databases
 - 1- Postgres - name: "gostack_gobarber"
 - 2- MongoDB - name: "mongodb"
-- 3- Redis - nam: "redis"
+- 3- Redis - name: "redis"
 
 ## You can create these databases with the terminal commands, using docker:
 - `docker run --name gostack_gobarber -e POSTGRES_PASWORD=docker -p 5432:5432 -d postgres`
