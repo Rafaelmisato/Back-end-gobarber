@@ -1,4 +1,4 @@
-# Configuração
+# Configuration
 
 ## To run the project.
 
