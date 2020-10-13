@@ -6,14 +6,14 @@
 `yarn`
 
 You need to be running 3 databases
-1- Postgres - name: "gostack_gobarber"
-2- MongoDB - name: "mongodb"
-3- Redis - nam: "redis"
+- 1- Postgres - name: "gostack_gobarber"
+- 2- MongoDB - name: "mongodb"
+- 3- Redis - nam: "redis"
 
 ## You can create these databases with the terminal commands, using docker:
-`docker run --name gostack_gobarber -e POSTGRES_PASWORD=docker -p 5432:5432 -d postgres`
-`docker run --name mongodb -p 27017:27017 -d -t mongo`
-`docker run --name redis -p 6379:6379 -d -t redis:alpine`
+- `docker run --name gostack_gobarber -e POSTGRES_PASWORD=docker -p 5432:5432 -d postgres`
+- `docker run --name mongodb -p 27017:27017 -d -t mongo`
+- `docker run --name redis -p 6379:6379 -d -t redis:alpine`
 
 Create the tables on database:
 `yarn typeorm migration:run`
